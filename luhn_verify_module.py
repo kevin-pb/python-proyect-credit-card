@@ -44,7 +44,7 @@ def luhn_verify(num):
 
         is_possition_pair = (int(i) + 1) % 2 == 0
 
-        if is_possition_pair:
+        if is_possition_pair == False:
 
             tmp = sum_digits(digit * 2)
 
